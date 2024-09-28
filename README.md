@@ -8,7 +8,6 @@ Note: The project includes two versions of the main notebook:
 
 main.ipynb: Written in British English.
 main_pt_BR.ipynb: Written in Brazilian Portuguese.
-This dual-language approach ensures accessibility for a broader range of users.
 
 ## Features
 
@@ -27,7 +26,7 @@ This dual-language approach ensures accessibility for a broader range of users.
   - `Pclass`: Passenger class (1 = 1st, 2 = 2nd, 3 = 3rd)
   - `Sex`: Gender of the passenger
   - `Age`: Age of the passenger
-  - `Fare`: Fare paid by the passenger
+  - `Fare`: Fare paid by the passenger (**unit:** British Pounds £)
   - `Survived`: Survival status (0 = No, 1 = Yes)
 
 ## Installation
