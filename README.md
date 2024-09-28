@@ -1,8 +1,14 @@
-# Titanic Survival Prediction ML Pipeline
+# Titanic Survival Prediction
 
 ## Overview
 
 This project showcases a machine learning pipeline built with Scikit-Learn to predict passenger survival on the Titanic. It encompasses data preprocessing, model training, hyperparameter optimisation using Grid Search with cross-validation, and an interactive interface for making predictions based on user input.
+
+Note: The project includes two versions of the main notebook:
+
+main.ipynb: Written in British English.
+main_pt_BR.ipynb: Written in Brazilian Portuguese.
+This dual-language approach ensures accessibility for a broader range of users.
 
 ## Features
 
@@ -28,8 +34,8 @@ This project showcases a machine learning pipeline built with Scikit-Learn to pr
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/titanic-ml-pipeline.git
-   cd titanic-ml-pipeline
+   git clone https://github.com/ffrpereira/titanic-survival-prediction.git
+   cd titanic-survival-prediction
    ```
 2. **Install Dependencies:**
    ```bash
@@ -44,7 +50,7 @@ pip install numpy pandas scikit-learn joblib
 ## Usage
 
 1. **Open the Notebook:**
-   - Navigate to `pipeline_ml_titanic_en_updated.ipynb` and open it in Jupyter Notebook or [Google Colab](https://colab.research.google.com/).
+   - Navigate to `main.ipynb` or `main_pt_BR.ipynb`  and open it in Jupyter Notebook or [Google Colab](https://colab.research.google.com/).
 
 2. **Run the Cells:**
    - Execute each cell sequentially to load data, preprocess, train models, optimise hyperparameters, and evaluate performance.
@@ -55,12 +61,13 @@ pip install numpy pandas scikit-learn joblib
 ## Project Structure
 
 ```
-titanic-ml-pipeline/
+titanic-survival-prediction/
 │
-├── main.ipynb                            # Main Jupyter Notebook
-├── best_model.pkl                        # Saved Best Model
-├── README.md                             # Project Documentation
-└── requirements.txt                      # Python Dependencies
+├── main.ipynb            # Main Jupyter Notebook (British English)
+├── main_pt_BR.ipynb      # Main Jupyter Notebook (Brazilian Portuguese)
+├── titanic.csv           # Titanic Dataset
+├── README.md             # Project Documentation
+└── requirements.txt      # Python Dependencies
 ```
 
 ## Contributing
