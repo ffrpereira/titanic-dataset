@@ -6,8 +6,8 @@ This project showcases a machine learning pipeline built with Scikit-Learn to pr
 
 Note: The project includes two versions of the main notebook:
 
-main.ipynb: Written in British English.
-main_pt_BR.ipynb: Written in Brazilian Portuguese.
+- main.ipynb: Written in British English.
+- main_pt_BR.ipynb: Written in Brazilian Portuguese.
 
 ## Features
 
